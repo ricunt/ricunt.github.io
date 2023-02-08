@@ -1,0 +1,142 @@
+body{
+    margin: 20px;
+    overflow-x: hidden;
+    background: url(../images/paper.jpg);
+}
+
+/* HEADER*/ 
+
+#header{
+    border: 5px solid pink;
+    background: url(../images/teehee.jpg);
+    text-align: center;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    border-radius: 25px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 0 0 3px white;
+}
+audio::-webkit-media-controls-panel{
+    background-color: rgb(237, 235, 203); 
+}
+audio::-webkit-media-controls-mute-button{
+    background-color: pink;
+    border-radius: 50%;
+}
+audio::-webkit-media-controls-play-button{
+    background-color: pink;
+    border-radius: 50%;
+}
+audio::-webkit-media-controls-current-time-display{
+    color: pink;
+}
+audio::-webkit-media-controls-time-remaining-display{
+    color: pink;
+}
+audio::-webkit-media-controls-timeline{
+    background-color: pink;
+    border-radius: 25px;
+    padding: 0px;
+}
+
+/* POLAROIDS */
+
+div.polaroid {
+    width: 60%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+  
+div.container {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+/* BLOCK 1*/
+
+#block1{
+    width: 50%;
+    z-index: 1;
+    rotate: -10deg;
+    position: absolute;
+    left: 0px;
+}
+
+/* BLOCK 2*/
+
+#block2{
+    width: 50%;
+    z-index: 2;
+    rotate: 10deg;
+    left: 50%;
+    position: absolute;
+}
+
+/* BLOCK 3*/
+
+#block3{
+    width: 40%;
+    z-index: 5;
+    rotate: 5deg;
+    position: absolute;
+    top: 650px;
+    left: 100px
+}
+
+/* BLOCK 4*/
+
+#block4{
+    width: 40%;
+    z-index: -1;
+    rotate: -20deg;
+    position: absolute;
+    top: 950px;
+    right: 250px;
+}
+
+/* BLOCK 5*/
+
+#block5{
+    width: 40%;
+    z-index: 4;
+    rotate: 20deg;
+    position: absolute;
+    top: 1250px;
+}
+
+/* BLOCK 6*/
+
+#block6{
+    width: 50%;
+    z-index: -2;
+    rotate: 15deg;
+    position: absolute;
+    top:1350px; 
+    right: -60px;
+}
+
+/* BLOCK 7*/
+
+#block7{
+    width: 30%;
+    z-index: -6;
+    rotate: -5deg;
+    position: absolute;
+    top: 1650px;
+    left: 30%;
+}
+
+/* ANCHOR TAG */
+
+#anchortag{
+    color: rgb(255, 117, 140);
+    border: 3px solid rgb(181, 248, 181);
+    padding: 5px;
+    border-radius: 25px;
+    background: rgb(190, 190, 255);
+    text-shadow: 0 0 3px white;
+    list-style-type: none;
+    text-decoration: none;
+}

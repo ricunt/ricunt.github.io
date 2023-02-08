@@ -1,0 +1,217 @@
+body{
+    background: url(../images/aero.jpg);
+    background-size: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* HEADER */
+
+#header{
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    background: url(../images/beach.gif);
+    background-size: 100%;
+    background-position: center;
+    padding: 20px;
+    color: white;
+    text-shadow: 0 0 5px white;
+    width: 80%;
+    border: 10px solid rgb(238, 85, 197);
+    border-radius: 25px;
+    box-shadow: 0 0px 15px white;
+}
+
+/* NAV */
+
+#navlist img{
+    opacity: 0;
+    width: 128px;
+    height: 128px;
+}
+#navlist{
+    position: relative;
+    border: 10px solid rgb(238, 187, 85);
+    border-radius: 25px;
+    height: 150px;
+    width: 57.5%;
+    margin: 25px;
+    float: left;
+    background: white;
+    box-shadow: 0 0px 15px white;
+}
+#navlist li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+}
+#navlist li, #navlist a{
+    display: block;
+    margin: 10px;
+  }
+#fb{
+    left: 0;
+    width: 128px;
+    height: 128px;
+    background: url('../images/sprites.png') -236px -27px;
+    border-radius: 25px;
+}
+#fb:hover{
+    background: url(../images/fb.gif);
+    background-position: center;
+    border-radius: 25px;
+}
+#insta{
+    left: 150px;
+    width: 128px;
+    height: 128px;
+    background: url('../images/sprites.png') -36px -27px;
+    border-radius: 25px;
+}
+#insta:hover{
+    background: url(../images/walk.gif);
+    background-position: center;
+    border-radius: 25px;
+}
+#twt{
+    left: 300px;
+    width: 128px;
+    height: 128px;
+    background: url('../images/sprites.png') -436px -37px;
+    border-radius: 25px;
+}
+#twt:hover{
+    background: url(../images/fire.gif);
+    background-position: center;
+    border-radius: 25px;
+}
+#spotify{
+    left: 450px;
+    width: 128px;
+    height: 128px;
+    background: url('../images/sprites.png') -36px -391px;
+    border-radius: 50%;
+}
+#spotify:hover{
+    background: url(../images/sing.gif);
+    background-position: center;
+    border-radius: 50%;
+}
+#pinterest{
+    left: 600px;
+    width: 128px;
+    height: 128px;
+    background: url('../images/sprites.png') -1036px -209px;
+}
+#pinterest:hover{
+    background: url(../images/emo.gif);
+    background-position: center;
+    border-radius: 50%;
+}
+
+/* RULES */
+
+#rules{
+    border: 10px solid rgb(118, 231, 103);
+    border-radius: 25px;
+    background: url(../images/bubble.gif);
+    width: 20%;
+    height: 150px;
+    padding: auto;
+    margin: 25px;
+    float: right;
+    box-shadow: 0 0px 15px white;
+}
+#rules p{
+    text-align: center;
+}
+
+/* MUSIC */
+
+#music{
+    clear: both;
+    box-shadow: 0 0px 15px white;
+    border: 5px solid white;
+    border-radius: 25px;
+    text-align: center;
+    padding: 10px;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 20px;
+    background: url(../images/slide.gif);
+    background-size: 100%;
+    background-position: center;
+    color: white;
+    text-shadow: 0 0 5px white;
+}
+#playlist{
+    border: 3px solid rgb(255, 255, 255);
+    float: left;
+    box-shadow: 0 0px 15px white;
+    margin-bottom: 20px;
+}
+#salvatore{
+    width: 49%;
+    float: right;
+    margin-bottom: 50px;
+    box-shadow: 0 0px 15px white;
+}
+#krazie{
+    width: 49%;
+    float: right;
+    box-shadow: 0 0px 15px white;
+}
+
+/* ANCHOR */
+
+#anchor{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    border: 2px solid white;
+    box-shadow: 0 0 15px pink;
+    border-radius: 25px;
+    background-color: rgb(255, 192, 203, 0.5);
+}
+#anchor:hover{
+    font-size: large;
+}
+
+/* ADD-ONS */
+
+#flower{
+    position: absolute;
+    top: -200px;
+    z-index: -10;
+    left: 10%;
+    width: 80%;
+}
+#guma{
+    position: absolute;
+    z-index: 1;
+    width: 225px;
+    height: 141px;
+    right: 2%;
+    top: 0;
+}
+#whale{
+    position: absolute;
+    transform: scale(0.7);
+    left: 0%;
+    z-index: 2;
+}
+#hellokitty{
+    position: absolute;
+    z-index: 2;
+    bottom: 0px;
+    scale: 0.7;
+    right: 20px;
+}
+#coconut{
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,208 @@
+body{
+    background: url(../images/popcorn.jpg);
+    background-size: 100%;
+    color: white;
+    margin: auto;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* HEADER */
+
+#subpage2header{
+    border: 5px solid white;
+    padding: 0px;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    background: black;
+    margin-bottom: 5px;
+    box-shadow: 0 0 5px white;
+    color: white;
+    text-shadow: 0 0 5px #FF0000, 0 0 7px #0000FF;
+    border-radius: 20px 20px 0px 0px;
+    background: url(../images/static.gif);
+    background-size: 1000px;
+    font-size: xx-large;
+    line-height: 0px;
+}
+
+/* VIDEO */
+
+video{
+    width:80%;
+    margin: auto;
+    border: 5px solid white;
+    display: block;
+    border-radius: 0px 0px 50px 50px;
+    box-shadow: 0 0 5px white;
+}
+video::-webkit-media-controls-play-button{
+    background-color: rgb(255, 0, 0, 0.5);
+    border-radius: 50%;
+    margin-left: 5px;
+    padding-top: 0;
+    margin-top: 20px;
+    padding-bottom: 0;
+}
+video::-webkit-media-controls-mute-button{
+    background-color: rgb(255, 0, 0, 0.5);
+    border-radius: 50%;
+    margin-left: 5px;
+}
+video::-webkit-media-controls-timeline{
+    background-color: #f00;
+    padding: 0.5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+video::-webkit-media-controls-current-time-display{
+    color: red;
+    text-shadow: 0 0 3px red;
+    margin-left: 5px;
+}
+video::-webkit-media-controls-time-remaining-display{
+    color: red;
+    text-shadow: 0 0 3px red;
+}
+video::-webkit-media-controls-fullscreen-button{
+    background-color: rgb(255, 0, 0, 0.5);
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+/* BAZAAR */
+
+#bazaar{
+    border: 10px solid white;
+    margin-top: 40px;
+    font-size: xx-large;
+    text-align: center;
+    line-height: 0px;
+    background: url(../images/cherrycoke.gif);
+    background-size: 800px;
+    background-position: center;
+    margin-bottom: 10px;
+    box-shadow: 0 0 5px white;
+    text-shadow: 0 0 5px black;
+}
+
+/* SNACK BAR */
+
+table{
+    border: 10px solid rgb(255, 255, 255);
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    background: rgb(255, 68, 68);
+    box-shadow: 0 0 5px white;
+    border-collapse: collapse;
+}
+th, td{
+    border: 3px solid rgb(255, 255, 255);
+    line-height: 150%;
+    height: 100px;
+}
+th:hover, td:hover{
+    background-color: yellow;
+}
+#column1{
+    width: 40%;
+}
+#column2{
+    width:40%
+}
+#head{
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+    background: url(../images/imageedit_1_3402037591.png);
+    background-size: cover;
+    background-position: center;
+    text-shadow: 0 0 5px black;
+    background-color: transparent;
+}
+#head:hover{
+    color: black;
+    background-color: yellow;
+    text-shadow: none;
+}
+#column1:hover{
+    background: url(../images/cholesterol.jpg);
+    text-shadow: 0 0 3px black;
+    font-size: x-large;
+}
+#popcorn:hover{
+    background: url(../images/popcorn2.jpg);
+    text-shadow: 0 0 3px black;
+    font-size: x-large;
+    background-position: center;
+}
+#hotdog:hover{
+    background: url(../images/hotdog.jpg);
+    text-shadow: 0 0 3px black;
+    font-size: x-large;
+    background-position: center;
+}
+#nachos:hover{
+    background: url(../images/nachos.jpg);
+    text-shadow: 0 0 3px black;
+    font-size: x-large;
+    background-position: center;
+}
+#column2:hover{
+    background: url(../images/drinks.jpg);
+    text-shadow: 0 0 3px black;
+    font-size: x-large;
+    background-position: center;
+}
+#soda:hover{
+    background: url(../images/soda.jpg);
+    text-shadow: 0 0 3px black;
+    font-size: x-large;
+    background-position: center;
+}
+#slushie:hover{
+    background: url(../images/slushie.jpg);
+    text-shadow: 0 0 3px black;
+    font-size: x-large;
+    background-position: center;
+}
+#milkshake:hover{
+    background: url(../images/milkshakes.jpg);
+    text-shadow: 0 0 3px black;
+    font-size: x-large;
+    background-position: center;
+}
+#anchortag{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    border: 5px solid black;
+    display: block;
+    width: 40%;
+    margin: auto;
+    background-color: yellow;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0 0 5px black;
+    font-weight: bolder;
+    animation: anchor 2s infinite;
+}
+@keyframes anchor{
+    0%{background-color: yellow; border-color: black; border-radius: 50px;}
+    25%{background-color: green;border-color: white; border-radius: 25px; color: white;}
+    50%{background-color: white; border-color: red; border-radius: 0px;}
+    75%{background-color: green;border-color: white; border-radius: 25px; color: white;}
+    100%{background-color: yellow;border-color: black; border-radius: 50px;}
+}
+#anchortag:hover{
+    background: url(../images/crumble.gif);
+    background-size: cover;
+    background-position: center;
+    text-shadow: 0 0 3px white;
+}
